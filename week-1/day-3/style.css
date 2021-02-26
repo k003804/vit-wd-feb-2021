@@ -4,3 +4,22 @@ p {
   font-style: italic;
   line-height: 22px;
 }
+
+h1 {
+  margin-top: 50px;
+  margin-bottom: 40px;
+  margin-left: 30px;
+  border: solid 5px red;
+  /*color: rgba(74, 169, 80)*/
+  color: #fe00fe;
+  /*padding: 20px;*/
+}
+
+ul {
+  background-color: grey;
+}
+
+li {
+
+  font-weight: 90px;
+}
