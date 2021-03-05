@@ -11,3 +11,12 @@ font-size: 58px
 
 }
 
+body {
+    background-color: grey;
+}
+
+div {
+    width: 200px;
+    height: 200px;
+    background-color: pink;
+}
