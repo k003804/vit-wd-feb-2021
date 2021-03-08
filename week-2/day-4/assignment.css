@@ -1,0 +1,47 @@
+
+img {
+    min-width: 500px;
+    height: 300px;
+}
+
+#window {
+    width: 500px;
+    height: 300px;
+    border: solid 10px black;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+@keyframes carousel {
+    from {
+        transform: translateX(0px);
+    }
+    to {
+        transform: translateX(-1500px);
+    }
+}
+
+#ImgSlider {
+    display: flex;
+    animation-name: carousel;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+h1 {
+    font-family: Times New 'Times New Roman', Times, serif;
+}
+
+#Class {
+    display: flex;
+    width: 500px;
+    height: 300px;
+    overflow: hidden;
+    margin: 0 auto;
+    border: solid 10px black;
+}
+
+
+/*<img src="https://globalgrasshopper.com/wp-content/uploads/2020/03/most-beautiful-places-to-visit-in-Japan.jpg">
+<img src="https://cw-gbl-gws-prod.azureedge.net/-/media/cw/apac/south-korea/office/korea-office-desktop.jpg?rev=6aa301b6aa14432b9f2850b7d84abb67">
+<img src="https://i.insider.com/5d0150e06fc9200b5a05f042?width=1100&format=jpeg&auto=webp">*/
