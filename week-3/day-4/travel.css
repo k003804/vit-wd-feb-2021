@@ -1,0 +1,62 @@
+body, html {
+    height: 100%;
+}
+
+
+.button1 {
+    background-color: white;
+    /*padding: 15px 32px;
+    text-align: center; */
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+
+.banner {
+    background-image: url('https://newsimg.sedaily.com/2020/11/24/1ZAJ6PH85M_1.jpg');
+    /*background-size: cover;*/
+    background-position: center;
+    height: 180px;
+    width: 100%;
+    background-repeat: no-repeat; 
+    color: black; 
+}
+
+li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+h1 {
+  font-family: cursive;
+  color: black;
+}
+
+
+#window { 
+  width: 500px;
+  height: 300px;
+  border: solid 10px black;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+@keyframes carousel {
+  from {
+      transform: translateX(0px);
+  }
+  to {
+      transform: translateX(-1500px);
+  }
+}
+
+#ImgSlider {
+  min-width: 500px;
+  height:300px;
+  display: flex;
+  animation-name: carousel;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+  
+}
+
