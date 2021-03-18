@@ -26,8 +26,7 @@ function calculateTip() {
 }
 
 function calculateSplitTip() {
- var allBillAmounts = document.getElementsByClassName("
- eachAmount");
+
  for (var counter = 0; counter < allBillAmounts.length; counter ++) {
 //the logic as long as the billamounts <6 so.. maximum 6 */
 var individuaalVal = allBillAmounts[counter].value;

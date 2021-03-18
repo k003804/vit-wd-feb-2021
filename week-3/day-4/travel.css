@@ -1,7 +1,20 @@
 body, html {
     height: 100%;
+    background-color: cornsilk;
 }
 
+/*.navbar {
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+}*/
+
+li {
+  display: flex;
+  padding: 8px 12px;
+  font-family: 'Source Sans Pro';
+  flex-direction: row;
+}
 
 .button1 {
     background-color: white;
@@ -11,21 +24,35 @@ body, html {
     display: inline-block;
     font-size: 16px;
   }
-
+  table {
+    margin: 0 auto;
+  }
+  .your-class input{
+    float: left;
+  display: block;
+  }
+  p {
+    text-align: center;
+    display: block; 
+    overflow: auto; 
+    width: 500x; 
+    max-width: 500px; 
+    margin: 0 auto; 
+  }
 .banner {
     background-image: url('https://newsimg.sedaily.com/2020/11/24/1ZAJ6PH85M_1.jpg');
+    background-color: white;
     /*background-size: cover;*/
     background-position: center;
     height: 180px;
     width: 100%;
     background-repeat: no-repeat; 
     color: black; 
+    padding-left: 0;
+    margin: 10px;
+    padding: 8px 24px;
 }
 
-li {
-  display: inline-block;
-  margin: 0 10px;
-}
 
 h1 {
   font-family: cursive;
@@ -36,7 +63,7 @@ h1 {
 #window { 
   width: 500px;
   height: 300px;
-  border: solid 10px black;
+  border: solid 10px orange;
   margin: 0 auto;
   overflow: hidden;
 }

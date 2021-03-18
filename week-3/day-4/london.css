@@ -1,0 +1,28 @@
+h1 {
+    font-family: cursive;
+}
+
+body {
+    background-color: blanchedalmond;
+   }
+
+.meme {
+    text-align:center;
+    display:block;
+}
+
+h4 {
+    text-align: center;
+
+}
+
+p {
+    text-align: center;   
+    width: 500x; 
+    max-width: 500px; 
+    font-size: large;
+}
+
+img {
+    size: 100%;
+}
